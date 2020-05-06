@@ -10,6 +10,24 @@ namespace cscomment
     {
         static void Main(string[] args)
         {
+            int x, y;
+            Console.Write("x 입력: ");
+            x = int.Parse(Console.ReadLine());
+            Console.Write("y 입력: ");
+            y = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("x = " + x + ", y = " + y);
+            if (x > 4)
+            {
+                if (y > 2)
+                {
+                    Console.WriteLine(x + y);
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+            }
         }
     }
 }
