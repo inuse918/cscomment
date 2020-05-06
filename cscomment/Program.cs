@@ -16,7 +16,8 @@ namespace cscomment
             Console.Write("y 입력: ");
             y = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("x = " + x + ", y = " + y);
+            //Console.WriteLine("x = " + x + ", y = " + y);
+
             if (x > 4)
             {
                 if (y > 2)
